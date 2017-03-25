@@ -37,7 +37,7 @@
 {
     ESWeatherAPI *weatherApi=[[ESWeatherAPI alloc] init];
     weatherApi.password=@"DJOYnieT8234jlsK";
-    weatherApi.city=@"郑州";
+    weatherApi.city=@"北京";
     weatherApi.day=0;
     [weatherApi requestWithSuccess:^(id result) {
         
