@@ -22,7 +22,7 @@ pod "ESAPIManager"
 
 ## Author
 
-1174060232@qq.com, 15837186738@139.com
+tianpengtao, 1174060232@qq.com
 
 ## License
 

@@ -3,7 +3,7 @@
     //  ESNetworking
     //
     //  Created by 田鹏涛 on 2017/3/20.
-    //  Copyright © 2017年 1174060232@qq.com. All rights reserved.
+    //  Copyright © 2017年 tianpengtao. All rights reserved.
     //   
 
 #import "ESLoginAPI.h"
