@@ -21,7 +21,7 @@ pod "ESAPIManager"
 ```
 ## Usage
 
-遵守ESAPIProtocol协议。
+ESWeatherAPI需遵守ESAPIProtocol协议。具体参考例子
 ```
 ESWeatherAPI *weatherApi=[[ESWeatherAPI alloc] init];
 weatherApi.password=@"DJOYnieT8234jlsK";
@@ -32,7 +32,6 @@ weatherApi.day=0;
 } failure:^(NSError *error) {
 
 }];
-
 ```
 ## Author
 
