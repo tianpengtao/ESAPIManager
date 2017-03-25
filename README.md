@@ -19,7 +19,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "ESAPIManager"
 ```
+## Usage
 
+遵守ESAPIProtocol协议。
+```
+ESWeatherAPI *weatherApi=[[ESWeatherAPI alloc] init];
+weatherApi.password=@"DJOYnieT8234jlsK";
+weatherApi.city=@"郑州";
+weatherApi.day=0;
+[weatherApi requestWithSuccess:^(id result) {
+
+} failure:^(NSError *error) {
+
+}];
+
+```
 ## Author
 
 tianpengtao, 1174060232@qq.com
