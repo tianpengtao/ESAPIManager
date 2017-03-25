@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ESAPIManager_Example' do
+  pod 'ESAPIManager', :path => '../'
+
+  target 'ESAPIManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
