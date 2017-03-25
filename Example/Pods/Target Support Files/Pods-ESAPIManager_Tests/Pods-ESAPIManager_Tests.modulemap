@@ -1,0 +1,6 @@
+framework module Pods_ESAPIManager_Tests {
+  umbrella header "Pods-ESAPIManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

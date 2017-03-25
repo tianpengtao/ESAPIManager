@@ -1,0 +1,23 @@
+PODS:
+  - ESAPIManager (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - ESAPIManager (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ESAPIManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESAPIManager: 5da4a74358a7e3a9bb3a43b4deecd1e05c31cf3d
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+
+PODFILE CHECKSUM: 792702e72439436edb12eb2996f08f31d73cb9f5
+
+COCOAPODS: 1.2.0

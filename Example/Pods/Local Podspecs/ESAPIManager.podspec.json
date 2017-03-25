@@ -1,0 +1,22 @@
+{
+  "name": "ESAPIManager",
+  "version": "0.1.0",
+  "summary": "A short description of ESAPIManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1174060232@qq.com/ESAPIManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1174060232@qq.com": "15837186738@139.com"
+  },
+  "source": {
+    "git": "https://github.com/1174060232@qq.com/ESAPIManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ESAPIManager/Classes/**/*"
+}

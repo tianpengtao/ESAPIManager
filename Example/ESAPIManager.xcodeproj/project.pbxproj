@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		31D71CD6FB574512142024B8 /* Pods_ESAPIManager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1BE03F8861CC612BD25F6D /* Pods_ESAPIManager_Tests.framework */; };
+		34C50F461E86527A00767E88 /* ESBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C50F3F1E86527A00767E88 /* ESBaseAPI.m */; };
+		34C50F471E86527A00767E88 /* ESGitHubAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C50F411E86527A00767E88 /* ESGitHubAPI.m */; };
+		34C50F481E86527A00767E88 /* ESLoginAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C50F431E86527A00767E88 /* ESLoginAPI.m */; };
+		34C50F491E86527A00767E88 /* ESWeatherAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C50F451E86527A00767E88 /* ESWeatherAPI.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +42,15 @@
 
 /* Begin PBXFileReference section */
 		1ECDF061CA009F3194CCB1BE /* Pods-ESAPIManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESAPIManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESAPIManager_Tests/Pods-ESAPIManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3C5A17EAE1E39F37F9605ACF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		34C50F3E1E86527A00767E88 /* ESBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBaseAPI.h; sourceTree = "<group>"; };
+		34C50F3F1E86527A00767E88 /* ESBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBaseAPI.m; sourceTree = "<group>"; };
+		34C50F401E86527A00767E88 /* ESGitHubAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESGitHubAPI.h; sourceTree = "<group>"; };
+		34C50F411E86527A00767E88 /* ESGitHubAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESGitHubAPI.m; sourceTree = "<group>"; };
+		34C50F421E86527A00767E88 /* ESLoginAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESLoginAPI.h; sourceTree = "<group>"; };
+		34C50F431E86527A00767E88 /* ESLoginAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESLoginAPI.m; sourceTree = "<group>"; };
+		34C50F441E86527A00767E88 /* ESWeatherAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESWeatherAPI.h; sourceTree = "<group>"; };
+		34C50F451E86527A00767E88 /* ESWeatherAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESWeatherAPI.m; sourceTree = "<group>"; };
+		3C5A17EAE1E39F37F9605ACF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3E1BE03F8861CC612BD25F6D /* Pods_ESAPIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESAPIManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3B7793D622B95B70A281C6 /* Pods-ESAPIManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESAPIManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESAPIManager_Example/Pods-ESAPIManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ESAPIManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESAPIManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +75,10 @@
 		6FD0976104BC28ACB87A55EC /* Pods_ESAPIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESAPIManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B996EC215DBC5C7EA18FB173 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B996EC215DBC5C7EA18FB173 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D2B4D41AA136B2AA08B4097F /* Pods-ESAPIManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESAPIManager_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESAPIManager_Example/Pods-ESAPIManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5515359F52B364AA85E48FA /* Pods-ESAPIManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESAPIManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESAPIManager_Tests/Pods-ESAPIManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF51CE72088758DFB30A4084 /* ESAPIManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ESAPIManager.podspec; path = ../ESAPIManager.podspec; sourceTree = "<group>"; };
+		FF51CE72088758DFB30A4084 /* ESAPIManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ESAPIManager.podspec; path = ../ESAPIManager.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34C50F3D1E86527A00767E88 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				34C50F3E1E86527A00767E88 /* ESBaseAPI.h */,
+				34C50F3F1E86527A00767E88 /* ESBaseAPI.m */,
+				34C50F401E86527A00767E88 /* ESGitHubAPI.h */,
+				34C50F411E86527A00767E88 /* ESGitHubAPI.m */,
+				34C50F421E86527A00767E88 /* ESLoginAPI.h */,
+				34C50F431E86527A00767E88 /* ESLoginAPI.m */,
+				34C50F441E86527A00767E88 /* ESWeatherAPI.h */,
+				34C50F451E86527A00767E88 /* ESWeatherAPI.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +159,7 @@
 		6003F593195388D20070C39A /* Example for ESAPIManager */ = {
 			isa = PBXGroup;
 			children = (
+				34C50F3D1E86527A00767E88 /* API */,
 				6003F59C195388D20070C39A /* ESAppDelegate.h */,
 				6003F59D195388D20070C39A /* ESAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -396,7 +424,11 @@
 			files = (
 				6003F59E195388D20070C39A /* ESAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ESViewController.m in Sources */,
+				34C50F481E86527A00767E88 /* ESLoginAPI.m in Sources */,
+				34C50F471E86527A00767E88 /* ESGitHubAPI.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				34C50F491E86527A00767E88 /* ESWeatherAPI.m in Sources */,
+				34C50F461E86527A00767E88 /* ESBaseAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

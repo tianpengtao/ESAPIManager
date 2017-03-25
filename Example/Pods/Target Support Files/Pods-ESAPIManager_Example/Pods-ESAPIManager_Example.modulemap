@@ -1,0 +1,6 @@
+framework module Pods_ESAPIManager_Example {
+  umbrella header "Pods-ESAPIManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
