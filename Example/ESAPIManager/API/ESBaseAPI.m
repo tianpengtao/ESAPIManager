@@ -40,7 +40,18 @@
 {
   return POST;
 }
-
+/**
+ 基础参数
+ 
+ @return 基础参数
+ */
+-(NSDictionary*)baseParameters
+{
+    NSTimeInterval timestamp=[[NSDate date] timeIntervalSince1970];
+    NSString *token=@"token";
+    return @{@"timestamp":@(timestamp),
+             @"token":token};
+}
 /**
  请求参数
  

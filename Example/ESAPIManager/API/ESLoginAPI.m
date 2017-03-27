@@ -1,10 +1,10 @@
-    //
-    //  ESLoginAPI.m
-    //  ESNetworking
-    //
-    //  Created by 田鹏涛 on 2017/3/20.
-    //  Copyright © 2017年 tianpengtao. All rights reserved.
-    //   
+//
+//  ESLoginAPI.m
+//  ESNetworking
+//
+//  Created by 田鹏涛 on 2017/3/20.
+//  Copyright © 2017年 tianpengtao. All rights reserved.
+//
 
 #import "ESLoginAPI.h"
 
@@ -16,7 +16,7 @@
  */
 -(NSURL*)baseURL
 {
-    return [NSURL URLWithString:@"http://php.weather.sina.com.cn"];
+    return [NSURL URLWithString:@"http://xxxx.com"];
 }
 /**
  和baseURL拼接成一个全url
@@ -25,7 +25,7 @@
  */
 -(NSString*)path
 {
-    return @"xml.php";
+    return @"login.php";
 }
 /**
  请求参数
@@ -34,9 +34,8 @@
  */
 -(NSDictionary*)parameters
 {
-    return @{@"city":@"郑州",
-             @"password":@"DJOYnieT8234jlsK",
-             @"day":@(0)};
+    return @{@"username":_username,
+             @"password":_password};
 }
 
 /**
