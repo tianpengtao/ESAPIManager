@@ -10,42 +10,42 @@
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		0B8DBAB184BB7E8E1D9C5E3386A8DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
-		15221858D1879195ED7F4D8EDACF1662 /* ESAPIProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A8455526681DA2AEABFFE9C1EC232681 /* ESAPIProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BE33C23247A7815FD8FC8758DBB061C /* NSObject+ESAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD5BD3DB76A7342F218F1918D50BEFE0 /* NSObject+ESAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		2923287BB4447E799B2B84E77B460CB4 /* NSObject+ESAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4092B51C69D7E3D5F81369E8DE468D6D /* NSObject+ESAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4B9F22A7B0C1C57AE3867C99F61D22 /* ESAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6D9F20883A2979DE67102042E0BF4A /* ESAPIManager.m */; };
+		307EF54EAFB74199CF0AA3B3A93CDDCB /* ESAPIManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3739837CAC7C866B58778EF43D7B8EBE /* ESAPIManager-dummy.m */; };
 		32B3AD64F9CCA412A18ADEFC383F3402 /* Pods-ESAPIManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 023F186C1BAFF280DCBE544B3B39A8BF /* Pods-ESAPIManager_Tests-dummy.m */; };
-		34596B831E893D7500A947BF /* ESAPIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 34596B811E893D7500A947BF /* ESAPIConfig.h */; };
-		34596B841E893D7500A947BF /* ESAPIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 34596B821E893D7500A947BF /* ESAPIConfig.m */; };
-		34596B871E89450E00A947BF /* ESAPICache.h in Headers */ = {isa = PBXBuildFile; fileRef = 34596B851E89450E00A947BF /* ESAPICache.h */; };
-		34596B881E89450E00A947BF /* ESAPICache.m in Sources */ = {isa = PBXBuildFile; fileRef = 34596B861E89450E00A947BF /* ESAPICache.m */; };
+		359C8F671F10ECA0469A844D3EFD9C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		38EC8CD49ADDE5FD1AB639C1F9557594 /* NSObject+ESAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 488AD25D2BAA0EF9627072F9345FC656 /* NSObject+ESAPIManager.m */; };
 		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
 		3BF12B8531AA9875FA43363372968E83 /* Pods-ESAPIManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A3CA3B8B6B8A1FCE398D49F30216BF /* Pods-ESAPIManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4022193C19BCC12999D6FBBEC95A04FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		456BE06077FE8158F6AB77188D67D4C6 /* ESAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF7C24D7C7609419D5FE6567E534100 /* ESAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
+		5297AC14833922749F7C990597B2D8CA /* ESAPIManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4F0BF674E2663CD7C541B2AE0924A9 /* ESAPIManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA50B5777E25034F5FDD2BDE3BC541B /* ESAPIProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 883A252987ADBD1B16E3AF08A57E157E /* ESAPIProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		640776F175B648FBC2E43C16ECF3F39B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */; };
-		64CA56F1368F76C28C15F26ADCAC3105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		706D11C7B9072630F6B49E03D62F3687 /* Pods-ESAPIManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 859863EB5E8B3AACE94A676426C89930 /* Pods-ESAPIManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
-		78F625B32CBD29067448A1A5849E16E1 /* ESAPIManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3739837CAC7C866B58778EF43D7B8EBE /* ESAPIManager-dummy.m */; };
-		8CE8A4BADB553C2235AE068FDDEB8403 /* ESAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D782BB41972F263C7ABA850F7D33E46 /* ESAPIManager.m */; };
+		836A88DBC88ACE3814625E0A72DC5D48 /* ESAPICache.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA59D5C336BDDAFC2617A67FC3103B2 /* ESAPICache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96C92C8EDB5D0CCD3137CC8A9CB989FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		A76DA2C7EBF7224FBA14AF5E474EC743 /* ESAPIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 566A97C95D6C5467970BBA25C1999A28 /* ESAPIConfig.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC93B628BB79875BE937B49F0FF72B48 /* ESAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E65DE285844BAA3362A7D94E453AD7F /* ESAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1D4047914FA560FD9C9573E80211CDA /* ESAPIManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4F0BF674E2663CD7C541B2AE0924A9 /* ESAPIManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D32332CA40D4F631E8DBA950B25A18FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C32099E0A716483F90035D502A494AC /* XCTest.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		EEB8AB449A1FBB179EF8CA0F63326D77 /* NSObject+ESAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61941CFA30BDCE783D1EDF35C4C8DD4E /* NSObject+ESAPIManager.m */; };
+		E392E05E49AA2DCA1346FD7A8A4ADDFA /* ESAPICache.m in Sources */ = {isa = PBXBuildFile; fileRef = B557EE7F50E6B8683823A845995E43E8 /* ESAPICache.m */; };
 		EEDC51ED887308FB47CCBF3F23E7016F /* Pods-ESAPIManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73D6E228338F95C48D1BA435E108DF /* Pods-ESAPIManager_Example-dummy.m */; };
+		F8E5C1430042DE5E3C0F362BA2CBD673 /* ESAPIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F2760D324FD880846CC06B84CB549F /* ESAPIConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5034637A702BBCB93E7498D080D91C86;
+			remoteGlobalIDString = 8BCFEBDC6A27D5956CDE136659E34ADE;
 			remoteInfo = ESAPIManager;
 		};
 /* End PBXContainerItemProxy section */
@@ -73,75 +73,67 @@
 		0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0EB1259BAB6BD64B4129B0A899E67003 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		1FA59D5C336BDDAFC2617A67FC3103B2 /* ESAPICache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESAPICache.h; sourceTree = "<group>"; };
 		21D49DDD2BE0DC07554D89E8E2042724 /* ESAPIManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESAPIManager.xcconfig; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		34596B811E893D7500A947BF /* ESAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESAPIConfig.h; sourceTree = "<group>"; };
-		34596B821E893D7500A947BF /* ESAPIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESAPIConfig.m; sourceTree = "<group>"; };
-		34596B851E89450E00A947BF /* ESAPICache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESAPICache.h; sourceTree = "<group>"; };
-		34596B861E89450E00A947BF /* ESAPICache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESAPICache.m; sourceTree = "<group>"; };
 		3739837CAC7C866B58778EF43D7B8EBE /* ESAPIManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESAPIManager-dummy.m"; sourceTree = "<group>"; };
-		387EBF8242F76D974F6012C450E453F5 /* Pods_ESAPIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESAPIManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387EBF8242F76D974F6012C450E453F5 /* Pods_ESAPIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESAPIManager_Example.framework; path = "Pods-ESAPIManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		4092B51C69D7E3D5F81369E8DE468D6D /* NSObject+ESAPIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ESAPIManager.h"; sourceTree = "<group>"; };
+		3E6D9F20883A2979DE67102042E0BF4A /* ESAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESAPIManager.m; sourceTree = "<group>"; };
 		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		423C8E0E29F8E194FADA27AC8D39A2A7 /* Pods-ESAPIManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESAPIManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		488AD25D2BAA0EF9627072F9345FC656 /* NSObject+ESAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ESAPIManager.m"; sourceTree = "<group>"; };
 		4E979EC98C8333D748916881D1AE07A9 /* ESAPIManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESAPIManager-prefix.pch"; sourceTree = "<group>"; };
-		4FF7C24D7C7609419D5FE6567E534100 /* ESAPIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESAPIManager.h; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		566A97C95D6C5467970BBA25C1999A28 /* ESAPIConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESAPIConfig.m; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		61941CFA30BDCE783D1EDF35C4C8DD4E /* NSObject+ESAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ESAPIManager.m"; sourceTree = "<group>"; };
+		5E65DE285844BAA3362A7D94E453AD7F /* ESAPIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESAPIManager.h; sourceTree = "<group>"; };
 		69039B27CF7311A19ABE7A662DA9F6CC /* Pods-ESAPIManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESAPIManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6D73D6E228338F95C48D1BA435E108DF /* Pods-ESAPIManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESAPIManager_Example-dummy.m"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		762F1BA262D2D67780F70B130053F3BC /* ESAPIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ESAPIManager.modulemap; sourceTree = "<group>"; };
+		762F1BA262D2D67780F70B130053F3BC /* ESAPIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ESAPIManager.modulemap; sourceTree = "<group>"; };
+		79F2760D324FD880846CC06B84CB549F /* ESAPIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESAPIConfig.h; sourceTree = "<group>"; };
 		7A829D1E26AF162EB8DFAB46B3F71C15 /* Pods-ESAPIManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESAPIManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7AA9DE5628C20231696A16629CC3BAFE /* Pods-ESAPIManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESAPIManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7D05476EF7F2C4144625D777AE370C6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		859863EB5E8B3AACE94A676426C89930 /* Pods-ESAPIManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESAPIManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8D782BB41972F263C7ABA850F7D33E46 /* ESAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESAPIManager.m; sourceTree = "<group>"; };
+		883A252987ADBD1B16E3AF08A57E157E /* ESAPIProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESAPIProtocol.h; sourceTree = "<group>"; };
 		916C74E5D93F732953496D56EBE59B30 /* Pods-ESAPIManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESAPIManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB01E8AD34E905AF0CB525FD7A70C0B /* Pods-ESAPIManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESAPIManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A5BC2C67903DF249F3D2E223B86057C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8455526681DA2AEABFFE9C1EC232681 /* ESAPIProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESAPIProtocol.h; sourceTree = "<group>"; };
-		A9961F382206D9F8DAE248D14D293E8D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9961F382206D9F8DAE248D14D293E8D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4F0BF674E2663CD7C541B2AE0924A9 /* ESAPIManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESAPIManager-umbrella.h"; sourceTree = "<group>"; };
+		AD5BD3DB76A7342F218F1918D50BEFE0 /* NSObject+ESAPIManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ESAPIManager.h"; sourceTree = "<group>"; };
+		B557EE7F50E6B8683823A845995E43E8 /* ESAPICache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESAPICache.m; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		C3A3CA3B8B6B8A1FCE398D49F30216BF /* Pods-ESAPIManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESAPIManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CABB2AB8DAA4E3C039B938182A3FAF56 /* Pods-ESAPIManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESAPIManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		CDE0A28D8CD918A7DB00AC0FDE55B243 /* Pods-ESAPIManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESAPIManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D7589B7D6C4EADFB63E44ECEAB2AED9A /* Pods-ESAPIManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ESAPIManager_Tests.modulemap"; sourceTree = "<group>"; };
+		D7589B7D6C4EADFB63E44ECEAB2AED9A /* Pods-ESAPIManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ESAPIManager_Tests.modulemap"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DA465D125ED81055A321C5F1ED6D9815 /* Pods-ESAPIManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESAPIManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA7BB3C2E61DB237BEA6C26FB4D53115 /* Pods-ESAPIManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESAPIManager_Example-resources.sh"; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E37FB3EBF91E6F323DFAD35DC49358BD /* ESAPIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESAPIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37FB3EBF91E6F323DFAD35DC49358BD /* ESAPIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESAPIManager.framework; path = ESAPIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BC6873CFD826341612DC2D9CF1DC80 /* Pods-ESAPIManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESAPIManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E517341D8171D690103D300F29E0B97C /* Pods_ESAPIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESAPIManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5FE6B5FCE49A05F15D20D509BF978AB /* Pods-ESAPIManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ESAPIManager_Example.modulemap"; sourceTree = "<group>"; };
+		E517341D8171D690103D300F29E0B97C /* Pods_ESAPIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESAPIManager_Tests.framework; path = "Pods-ESAPIManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FE6B5FCE49A05F15D20D509BF978AB /* Pods-ESAPIManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ESAPIManager_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D79EB51940430768B9BBB8CE845126A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64CA56F1368F76C28C15F26ADCAC3105 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1A70D241A6F809D5DBCBCE90F78484C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +153,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		97ADEBFCA7EEC35F465559ADBC12A4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359C8F671F10ECA0469A844D3EFD9C68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99533FF85487EB2A0C80E0696047C714 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,22 +172,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B321AD288C134AA243E2A1F6D1B1F06 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4FF7C24D7C7609419D5FE6567E534100 /* ESAPIManager.h */,
-				8D782BB41972F263C7ABA850F7D33E46 /* ESAPIManager.m */,
-				A8455526681DA2AEABFFE9C1EC232681 /* ESAPIProtocol.h */,
-				4092B51C69D7E3D5F81369E8DE468D6D /* NSObject+ESAPIManager.h */,
-				61941CFA30BDCE783D1EDF35C4C8DD4E /* NSObject+ESAPIManager.m */,
-				34596B811E893D7500A947BF /* ESAPIConfig.h */,
-				34596B821E893D7500A947BF /* ESAPIConfig.m */,
-				34596B851E89450E00A947BF /* ESAPICache.h */,
-				34596B861E89450E00A947BF /* ESAPICache.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +215,7 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -241,6 +226,15 @@
 				C53FD8BC663778503EAC6E78AF6BD891 /* Pods-ESAPIManager_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E9D6F844B5577DE05CA8B355F837D94 /* ESAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				872F337F9E95D9A3368341E2866868E1 /* Classes */,
+			);
+			name = ESAPIManager;
+			path = ESAPIManager;
 			sourceTree = "<group>";
 		};
 		61E6E322F9DA5198914DDE58071C2692 /* Pods-ESAPIManager_Example */ = {
@@ -261,14 +255,6 @@
 			path = "Target Support Files/Pods-ESAPIManager_Example";
 			sourceTree = "<group>";
 		};
-		67713A659EA2C383C52B14A77A22A11B /* ESAPIManager */ = {
-			isa = PBXGroup;
-			children = (
-				0B321AD288C134AA243E2A1F6D1B1F06 /* Classes */,
-			);
-			path = ESAPIManager;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -284,11 +270,28 @@
 		86F782FEA998AA54058E662A561B28F1 /* ESAPIManager */ = {
 			isa = PBXGroup;
 			children = (
-				67713A659EA2C383C52B14A77A22A11B /* ESAPIManager */,
+				2E9D6F844B5577DE05CA8B355F837D94 /* ESAPIManager */,
 				191BAB3A5DE3ABEF98D11C8F83948E5C /* Support Files */,
 			);
 			name = ESAPIManager;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		872F337F9E95D9A3368341E2866868E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1FA59D5C336BDDAFC2617A67FC3103B2 /* ESAPICache.h */,
+				B557EE7F50E6B8683823A845995E43E8 /* ESAPICache.m */,
+				79F2760D324FD880846CC06B84CB549F /* ESAPIConfig.h */,
+				566A97C95D6C5467970BBA25C1999A28 /* ESAPIConfig.m */,
+				5E65DE285844BAA3362A7D94E453AD7F /* ESAPIManager.h */,
+				3E6D9F20883A2979DE67102042E0BF4A /* ESAPIManager.m */,
+				883A252987ADBD1B16E3AF08A57E157E /* ESAPIProtocol.h */,
+				AD5BD3DB76A7342F218F1918D50BEFE0 /* NSObject+ESAPIManager.h */,
+				488AD25D2BAA0EF9627072F9345FC656 /* NSObject+ESAPIManager.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -379,16 +382,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		610C651EA621B7F4CA8FFA1775DC8888 /* Headers */ = {
+		2A7239C10777696732C67DB4B2E7486F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D4047914FA560FD9C9573E80211CDA /* ESAPIManager-umbrella.h in Headers */,
-				456BE06077FE8158F6AB77188D67D4C6 /* ESAPIManager.h in Headers */,
-				34596B871E89450E00A947BF /* ESAPICache.h in Headers */,
-				15221858D1879195ED7F4D8EDACF1662 /* ESAPIProtocol.h in Headers */,
-				34596B831E893D7500A947BF /* ESAPIConfig.h in Headers */,
-				2923287BB4447E799B2B84E77B460CB4 /* NSObject+ESAPIManager.h in Headers */,
+				836A88DBC88ACE3814625E0A72DC5D48 /* ESAPICache.h in Headers */,
+				F8E5C1430042DE5E3C0F362BA2CBD673 /* ESAPIConfig.h in Headers */,
+				5297AC14833922749F7C990597B2D8CA /* ESAPIManager-umbrella.h in Headers */,
+				BC93B628BB79875BE937B49F0FF72B48 /* ESAPIManager.h in Headers */,
+				5BA50B5777E25034F5FDD2BDE3BC541B /* ESAPIProtocol.h in Headers */,
+				0BE33C23247A7815FD8FC8758DBB061C /* NSObject+ESAPIManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,23 +446,6 @@
 			productReference = A9961F382206D9F8DAE248D14D293E8D /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5034637A702BBCB93E7498D080D91C86 /* ESAPIManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F369A015F22D70D49E919D6BB0087505 /* Build configuration list for PBXNativeTarget "ESAPIManager" */;
-			buildPhases = (
-				208B83EADA323958436EBA80F4DEA326 /* Sources */,
-				0D79EB51940430768B9BBB8CE845126A /* Frameworks */,
-				610C651EA621B7F4CA8FFA1775DC8888 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ESAPIManager;
-			productName = ESAPIManager;
-			productReference = E37FB3EBF91E6F323DFAD35DC49358BD /* ESAPIManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		67125FEFE74F16614526FACADDF8868A /* Pods-ESAPIManager_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C7330B3C76A46C91BC445D0D3D81CE6 /* Build configuration list for PBXNativeTarget "Pods-ESAPIManager_Tests" */;
@@ -496,6 +482,23 @@
 			productReference = 387EBF8242F76D974F6012C450E453F5 /* Pods_ESAPIManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8BCFEBDC6A27D5956CDE136659E34ADE /* ESAPIManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797C2B7844EA284DA2B2203B6DE1FBF3 /* Build configuration list for PBXNativeTarget "ESAPIManager" */;
+			buildPhases = (
+				22FCB4B38A5615599A19DB640EC2EB27 /* Sources */,
+				97ADEBFCA7EEC35F465559ADBC12A4EF /* Frameworks */,
+				2A7239C10777696732C67DB4B2E7486F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESAPIManager;
+			productName = ESAPIManager;
+			productReference = E37FB3EBF91E6F323DFAD35DC49358BD /* ESAPIManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -517,7 +520,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5034637A702BBCB93E7498D080D91C86 /* ESAPIManager */,
+				8BCFEBDC6A27D5956CDE136659E34ADE /* ESAPIManager */,
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
 				7CD8D6A26C3224D919EF42CDEC48B0B2 /* Pods-ESAPIManager_Example */,
 				67125FEFE74F16614526FACADDF8868A /* Pods-ESAPIManager_Tests */,
@@ -534,15 +537,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		208B83EADA323958436EBA80F4DEA326 /* Sources */ = {
+		22FCB4B38A5615599A19DB640EC2EB27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34596B881E89450E00A947BF /* ESAPICache.m in Sources */,
-				34596B841E893D7500A947BF /* ESAPIConfig.m in Sources */,
-				78F625B32CBD29067448A1A5849E16E1 /* ESAPIManager-dummy.m in Sources */,
-				8CE8A4BADB553C2235AE068FDDEB8403 /* ESAPIManager.m in Sources */,
-				EEB8AB449A1FBB179EF8CA0F63326D77 /* NSObject+ESAPIManager.m in Sources */,
+				E392E05E49AA2DCA1346FD7A8A4ADDFA /* ESAPICache.m in Sources */,
+				A76DA2C7EBF7224FBA14AF5E474EC743 /* ESAPIConfig.m in Sources */,
+				307EF54EAFB74199CF0AA3B3A93CDDCB /* ESAPIManager-dummy.m in Sources */,
+				2F4B9F22A7B0C1C57AE3867C99F61D22 /* ESAPIManager.m in Sources */,
+				38EC8CD49ADDE5FD1AB639C1F9557594 /* NSObject+ESAPIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,43 +585,12 @@
 		DA5B61A522B3161503478368256B8CF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ESAPIManager;
-			target = 5034637A702BBCB93E7498D080D91C86 /* ESAPIManager */;
+			target = 8BCFEBDC6A27D5956CDE136659E34ADE /* ESAPIManager */;
 			targetProxy = CCA21F96BC554FB4B689D096560CAED0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		027AEB9E91EB59855687B7F191CA54F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21D49DDD2BE0DC07554D89E8E2042724 /* ESAPIManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ESAPIManager/ESAPIManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ESAPIManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ESAPIManager/ESAPIManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ESAPIManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3E31D8685383F44DB7662EE9C72C0E81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A829D1E26AF162EB8DFAB46B3F71C15 /* Pods-ESAPIManager_Example.release.xcconfig */;
@@ -716,6 +688,37 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65B9420BFCEE35CA4088F6F412198AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D49DDD2BE0DC07554D89E8E2042724 /* ESAPIManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ESAPIManager/ESAPIManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESAPIManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ESAPIManager/ESAPIManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ESAPIManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -841,37 +844,6 @@
 			};
 			name = Debug;
 		};
-		CD61FF184D97A7F0BD032F169AEB929C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21D49DDD2BE0DC07554D89E8E2042724 /* ESAPIManager.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ESAPIManager/ESAPIManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ESAPIManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ESAPIManager/ESAPIManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ESAPIManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DDB9BB4696C3B974F329B274C99DB3D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69039B27CF7311A19ABE7A662DA9F6CC /* Pods-ESAPIManager_Example.debug.xcconfig */;
@@ -938,6 +910,37 @@
 			};
 			name = Release;
 		};
+		F4A5E537A72D0E66A11CE3CF51D80AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D49DDD2BE0DC07554D89E8E2042724 /* ESAPIManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ESAPIManager/ESAPIManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESAPIManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ESAPIManager/ESAPIManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ESAPIManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -946,6 +949,15 @@
 			buildConfigurations = (
 				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
 				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797C2B7844EA284DA2B2203B6DE1FBF3 /* Build configuration list for PBXNativeTarget "ESAPIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B9420BFCEE35CA4088F6F412198AA6 /* Debug */,
+				F4A5E537A72D0E66A11CE3CF51D80AE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -973,15 +985,6 @@
 			buildConfigurations = (
 				50E6827ED684750FB8EC425C9547DB59 /* Debug */,
 				E6680F91FD78ACF3037F0841BA89185B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F369A015F22D70D49E919D6BB0087505 /* Build configuration list for PBXNativeTarget "ESAPIManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD61FF184D97A7F0BD032F169AEB929C /* Debug */,
-				027AEB9E91EB59855687B7F191CA54F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,18 +1,18 @@
 {
   "name": "ESAPIManager",
   "version": "0.1.0",
-  "summary": "A short description of ESAPIManager.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1174060232@qq.com/ESAPIManager",
+  "summary": "帮你正确构建网络层.",
+  "description": "TODO: 帮你正确构建网络层、网络中间层.",
+  "homepage": "https://github.com/tianpengtao/ESAPIManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1174060232@qq.com": "15837186738@139.com"
+    "tianpengtao": "1174060232@qq.com"
   },
   "source": {
-    "git": "https://github.com/1174060232@qq.com/ESAPIManager.git",
+    "git": "https://github.com/tianpengtao/ESAPIManager.git",
     "tag": "0.1.0"
   },
   "platforms": {

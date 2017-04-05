@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "ESAPICache.h"
+#import "ESAPIConfig.h"
 #import "ESAPIManager.h"
 #import "ESAPIProtocol.h"
 #import "NSObject+ESAPIManager.h"

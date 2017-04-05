@@ -18,6 +18,6 @@
         NSAssert(NO, @"API_请遵守ESAPIProtocol协议");
         return;
     }
-    [[ESAPIManager manager] request:self success:success failure:failure];
+    [[ESAPIManager manager] request:(id<ESAPIProtocol>)self success:success failure:failure];
 }
 @end

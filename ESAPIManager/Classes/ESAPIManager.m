@@ -72,6 +72,7 @@
     if ([api respondsToSelector:@selector(baseParameters)]) {
         baseParameters=[api baseParameters];
     }
+    
     if (!baseParameters) {
         baseParameters=[ESAPIConfig shared].baseParameters;
     }
@@ -192,18 +193,18 @@
                       failure:(void (^)(NSURLSessionDataTask *, NSError *))failure
 {
     NSURLRequest *urlRequest=[self configURLRequestWithHTTPMethod:method URLString:URLString parameters:parameters httpHeader:httpHeader timeout:timeout];
-    NSURLSessionDataTask * dataTask = [self.session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+    __block __weak NSURLSessionDataTask * dataTask = [self.session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
-            failure(nil,error);
+            failure(dataTask,error);
         }else{
             id result =[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
             if (result)
             {
-                success(nil,result);
+                success(dataTask,result);
             }
             else
             {
-                success(nil,data);
+                success(dataTask,data);
             }
         }
     }];

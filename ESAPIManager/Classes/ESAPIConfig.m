@@ -4,7 +4,7 @@
 //
 //  Created by 田鹏涛 on 2017/3/27.
 //
-//
+//  配置，优先级小于遵守ESAPIProtocol协议的配置
 
 #import "ESAPIConfig.h"
 
