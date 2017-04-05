@@ -15,6 +15,10 @@
 		2923287BB4447E799B2B84E77B460CB4 /* NSObject+ESAPIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4092B51C69D7E3D5F81369E8DE468D6D /* NSObject+ESAPIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32B3AD64F9CCA412A18ADEFC383F3402 /* Pods-ESAPIManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 023F186C1BAFF280DCBE544B3B39A8BF /* Pods-ESAPIManager_Tests-dummy.m */; };
+		34596B831E893D7500A947BF /* ESAPIConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 34596B811E893D7500A947BF /* ESAPIConfig.h */; };
+		34596B841E893D7500A947BF /* ESAPIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 34596B821E893D7500A947BF /* ESAPIConfig.m */; };
+		34596B871E89450E00A947BF /* ESAPICache.h in Headers */ = {isa = PBXBuildFile; fileRef = 34596B851E89450E00A947BF /* ESAPICache.h */; };
+		34596B881E89450E00A947BF /* ESAPICache.m in Sources */ = {isa = PBXBuildFile; fileRef = 34596B861E89450E00A947BF /* ESAPICache.m */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
 		3BF12B8531AA9875FA43363372968E83 /* Pods-ESAPIManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A3CA3B8B6B8A1FCE398D49F30216BF /* Pods-ESAPIManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,8 +75,12 @@
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		21D49DDD2BE0DC07554D89E8E2042724 /* ESAPIManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESAPIManager.xcconfig; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		34596B811E893D7500A947BF /* ESAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESAPIConfig.h; sourceTree = "<group>"; };
+		34596B821E893D7500A947BF /* ESAPIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESAPIConfig.m; sourceTree = "<group>"; };
+		34596B851E89450E00A947BF /* ESAPICache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESAPICache.h; sourceTree = "<group>"; };
+		34596B861E89450E00A947BF /* ESAPICache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESAPICache.m; sourceTree = "<group>"; };
 		3739837CAC7C866B58778EF43D7B8EBE /* ESAPIManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESAPIManager-dummy.m"; sourceTree = "<group>"; };
-		387EBF8242F76D974F6012C450E453F5 /* Pods_ESAPIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESAPIManager_Example.framework; path = "Pods-ESAPIManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387EBF8242F76D974F6012C450E453F5 /* Pods_ESAPIManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESAPIManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -90,21 +98,21 @@
 		6D73D6E228338F95C48D1BA435E108DF /* Pods-ESAPIManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESAPIManager_Example-dummy.m"; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		762F1BA262D2D67780F70B130053F3BC /* ESAPIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ESAPIManager.modulemap; sourceTree = "<group>"; };
+		762F1BA262D2D67780F70B130053F3BC /* ESAPIManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ESAPIManager.modulemap; sourceTree = "<group>"; };
 		7A829D1E26AF162EB8DFAB46B3F71C15 /* Pods-ESAPIManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESAPIManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7AA9DE5628C20231696A16629CC3BAFE /* Pods-ESAPIManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESAPIManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7D05476EF7F2C4144625D777AE370C6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		859863EB5E8B3AACE94A676426C89930 /* Pods-ESAPIManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESAPIManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8D782BB41972F263C7ABA850F7D33E46 /* ESAPIManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESAPIManager.m; sourceTree = "<group>"; };
 		916C74E5D93F732953496D56EBE59B30 /* Pods-ESAPIManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESAPIManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FB01E8AD34E905AF0CB525FD7A70C0B /* Pods-ESAPIManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESAPIManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A5BC2C67903DF249F3D2E223B86057C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8455526681DA2AEABFFE9C1EC232681 /* ESAPIProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESAPIProtocol.h; sourceTree = "<group>"; };
-		A9961F382206D9F8DAE248D14D293E8D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9961F382206D9F8DAE248D14D293E8D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4F0BF674E2663CD7C541B2AE0924A9 /* ESAPIManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESAPIManager-umbrella.h"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -112,17 +120,17 @@
 		CABB2AB8DAA4E3C039B938182A3FAF56 /* Pods-ESAPIManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESAPIManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		CDE0A28D8CD918A7DB00AC0FDE55B243 /* Pods-ESAPIManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESAPIManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D7589B7D6C4EADFB63E44ECEAB2AED9A /* Pods-ESAPIManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ESAPIManager_Tests.modulemap"; sourceTree = "<group>"; };
+		D7589B7D6C4EADFB63E44ECEAB2AED9A /* Pods-ESAPIManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ESAPIManager_Tests.modulemap"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DA465D125ED81055A321C5F1ED6D9815 /* Pods-ESAPIManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESAPIManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA7BB3C2E61DB237BEA6C26FB4D53115 /* Pods-ESAPIManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESAPIManager_Example-resources.sh"; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E37FB3EBF91E6F323DFAD35DC49358BD /* ESAPIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESAPIManager.framework; path = ESAPIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37FB3EBF91E6F323DFAD35DC49358BD /* ESAPIManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESAPIManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BC6873CFD826341612DC2D9CF1DC80 /* Pods-ESAPIManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESAPIManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E517341D8171D690103D300F29E0B97C /* Pods_ESAPIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESAPIManager_Tests.framework; path = "Pods-ESAPIManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5FE6B5FCE49A05F15D20D509BF978AB /* Pods-ESAPIManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ESAPIManager_Example.modulemap"; sourceTree = "<group>"; };
+		E517341D8171D690103D300F29E0B97C /* Pods_ESAPIManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESAPIManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FE6B5FCE49A05F15D20D509BF978AB /* Pods-ESAPIManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ESAPIManager_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +180,11 @@
 				A8455526681DA2AEABFFE9C1EC232681 /* ESAPIProtocol.h */,
 				4092B51C69D7E3D5F81369E8DE468D6D /* NSObject+ESAPIManager.h */,
 				61941CFA30BDCE783D1EDF35C4C8DD4E /* NSObject+ESAPIManager.m */,
+				34596B811E893D7500A947BF /* ESAPIConfig.h */,
+				34596B821E893D7500A947BF /* ESAPIConfig.m */,
+				34596B851E89450E00A947BF /* ESAPICache.h */,
+				34596B861E89450E00A947BF /* ESAPICache.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -220,7 +231,6 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -256,7 +266,6 @@
 			children = (
 				0B321AD288C134AA243E2A1F6D1B1F06 /* Classes */,
 			);
-			name = ESAPIManager;
 			path = ESAPIManager;
 			sourceTree = "<group>";
 		};
@@ -376,7 +385,9 @@
 			files = (
 				C1D4047914FA560FD9C9573E80211CDA /* ESAPIManager-umbrella.h in Headers */,
 				456BE06077FE8158F6AB77188D67D4C6 /* ESAPIManager.h in Headers */,
+				34596B871E89450E00A947BF /* ESAPICache.h in Headers */,
 				15221858D1879195ED7F4D8EDACF1662 /* ESAPIProtocol.h in Headers */,
+				34596B831E893D7500A947BF /* ESAPIConfig.h in Headers */,
 				2923287BB4447E799B2B84E77B460CB4 /* NSObject+ESAPIManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +538,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34596B881E89450E00A947BF /* ESAPICache.m in Sources */,
+				34596B841E893D7500A947BF /* ESAPIConfig.m in Sources */,
 				78F625B32CBD29067448A1A5849E16E1 /* ESAPIManager-dummy.m in Sources */,
 				8CE8A4BADB553C2235AE068FDDEB8403 /* ESAPIManager.m in Sources */,
 				EEB8AB449A1FBB179EF8CA0F63326D77 /* NSObject+ESAPIManager.m in Sources */,

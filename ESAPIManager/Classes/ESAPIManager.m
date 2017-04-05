@@ -8,7 +8,7 @@
 
 
 #import "ESAPIManager.h"
-
+#import "ESAPIConfig.h"
 
 @interface ESAPIManager()<NSURLSessionDelegate>
 @property (readwrite, nonatomic, strong) NSOperationQueue *operationQueue;
@@ -72,6 +72,10 @@
     if ([api respondsToSelector:@selector(baseParameters)]) {
         baseParameters=[api baseParameters];
     }
+    if (!baseParameters) {
+        baseParameters=[ESAPIConfig shared].baseParameters;
+    }
+    
     NSDictionary *parameters=nil;
     if ([api respondsToSelector:@selector(parameters)]) {
         parameters=[api parameters];
@@ -190,16 +194,16 @@
     NSURLRequest *urlRequest=[self configURLRequestWithHTTPMethod:method URLString:URLString parameters:parameters httpHeader:httpHeader timeout:timeout];
     NSURLSessionDataTask * dataTask = [self.session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
-            failure(dataTask,error);
+            failure(nil,error);
         }else{
             id result =[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
             if (result)
             {
-                success(dataTask,result);
+                success(nil,result);
             }
             else
             {
-                success(dataTask,data);
+                success(nil,data);
             }
         }
     }];
@@ -214,7 +218,7 @@
                                         timeout:(NSInteger)timeout
 {
     NSMutableURLRequest *urlRequest=[[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:URLString] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:timeout];
-    
+    NSLog(@"allHTTPHeaderFields:%@",[urlRequest allHTTPHeaderFields]);
     //配置http请求头
     [httpHeader enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         [urlRequest setValue:obj forHTTPHeaderField:key];
