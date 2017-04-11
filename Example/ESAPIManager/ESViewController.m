@@ -9,7 +9,7 @@
 #import "ESViewController.h"
 #import "ESGitHubAPI.h"
 #import "ESWeatherAPI.h"
-
+#import "ESAPIConfig.h"
 @interface ESViewController ()
 
 @end
@@ -19,7 +19,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     
     UIButton *button=[UIButton buttonWithType:UIButtonTypeSystem];
     button.frame=CGRectMake(10, 50, 300, 50);

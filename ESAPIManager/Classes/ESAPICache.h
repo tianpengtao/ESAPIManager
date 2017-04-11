@@ -10,4 +10,6 @@
 
 @interface ESAPICache : NSObject
 + (ESAPICache *)shared;
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 @end

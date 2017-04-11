@@ -30,4 +30,7 @@
  取消当前正在进行的网络请求
  */
 - (void)cancelDataTask;
+
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 @end

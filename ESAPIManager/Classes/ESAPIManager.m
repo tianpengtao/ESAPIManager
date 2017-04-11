@@ -115,6 +115,7 @@
                      httpHeader:httpHeader
                         timeout:timeout
                         success:^(NSURLSessionDataTask *task, id result) {
+                            
                             id parseResult=result;
                             if ([api respondsToSelector:@selector(parse:)]) {
                                 parseResult=[api parse:result];

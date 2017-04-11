@@ -13,7 +13,7 @@
 + (ESAPIConfig *)shared;
 
 /**
- 基础参数，
+ 基础参数
  */
 @property(nonatomic,strong)NSDictionary *baseParameters;
 
