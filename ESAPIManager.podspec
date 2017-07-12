@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ESAPIManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '帮你正确构建网络层.'
 
 # This description is used to generate tags and improve search results.
