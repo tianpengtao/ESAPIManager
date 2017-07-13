@@ -196,17 +196,23 @@
     NSURLRequest *urlRequest=[self configURLRequestWithHTTPMethod:method URLString:URLString parameters:parameters httpHeader:httpHeader timeout:timeout];
     __block __weak NSURLSessionDataTask * dataTask = [self.session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error) {
-            failure(dataTask,error);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                failure(dataTask,error);
+            });
+
         }else{
             id result =[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
-            if (result)
-            {
-                success(dataTask,result);
-            }
-            else
-            {
-                success(dataTask,data);
-            }
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (result)
+                {
+                    success(dataTask,result);
+                }
+                else
+                {
+                    success(dataTask,data);
+                }
+            });
+    
         }
     }];
     [dataTask resume];
