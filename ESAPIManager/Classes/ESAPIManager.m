@@ -120,11 +120,30 @@
                             if ([api respondsToSelector:@selector(parse:)]) {
                                 parseResult=[api parse:result];
                             }
-                            success(parseResult);
-                            if (debug) {
-                                NSString *successTagStr=@"👌👌👌网络请求成功👌👌👌";
-                                NSLog(@"\n%@\nurl:\n%@\nparameters:\n%@\nresult:\n%@\n%@",successTagStr,urlStr,parameters,parseResult,successTagStr);
+                            //成功
+                            if (parseResult)
+                            {
+                                success(parseResult);
+                                if (debug) {
+                                    NSString *successTagStr=@"👌👌👌网络请求成功👌👌👌";
+                                    NSLog(@"\n%@\nurl:\n%@\nparameters:\n%@\nresult:\n%@\n%@",successTagStr,urlStr,parameters,parseResult,successTagStr);
+                                }
                             }
+                            //业务失败
+                            else
+                            {
+                                NSError *parseError=nil;
+                                if ([api respondsToSelector:@selector(error:)]) {
+                                    parseError=[api error:result];
+                                }
+                                failure(parseError);
+                                if (debug) {
+                                    NSString *failureTagStr=@"⚠️⚠️⚠️网络请求业务失败⚠️⚠️⚠️";
+                                    NSLog(@"\n%@\nurl:%@\nparameters:%@\nresult:%@\n%@",failureTagStr,urlStr,parameters,parseError,failureTagStr);
+                                }
+
+                            }
+                        
                         }
                         failure:^(NSURLSessionDataTask *task, NSError *error) {
                             NSError *parseError=error;
